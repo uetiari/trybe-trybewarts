@@ -15,3 +15,12 @@
 #trybewarts-header-title {
   text-align: center;
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
