@@ -24,7 +24,8 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  display: inline;
 }
 
 #trybewarts-forms-logo {
@@ -38,4 +39,8 @@ main {
 
 #input-lastname {
   flex: 50%;
+}
+
+#input-email {
+  display: inline;
 }
