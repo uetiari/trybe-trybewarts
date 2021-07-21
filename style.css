@@ -24,9 +24,18 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
   float: right;
+}
+
+#input-name {
+  flex: 50%;
+}
+
+#input-lastname {
+  flex: 50%;
 }
