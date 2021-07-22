@@ -1,6 +1,6 @@
 * {
- margin: 0;
- padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -57,4 +57,12 @@ main {
 
 #input-email {
   display: inline;
+}
+
+.subject {
+  display: inline-block;
+}
+
+#family {
+  display: flex;
 }

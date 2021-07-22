@@ -1,42 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  <header class="header">
-      <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="images/trybewarts-header-logo.svg"
+        class="trybewarts-header-logo"
+      />
       <h1 id="trybewarts-header-title">Trybewarts</h1>
-    <form class="trybewarts-login">
-      <input id="login" type="email" placeholder="Login" required>
-      <input id="password" type="password" placeholder="Senha" required>
-      <button type="submit" id="button">Logar</button>
-    </form>
-  </header>
-  <main>
-    <form id="evaluation-form">
-      <input id="input-name" type="text" placeholder="Nome">
-      <input id="input-lastname" type="text" placeholder="Sobrenome">
-      <input id="input-email" type="email" placeholder="Email">
-      <label>Casa :</label>
-      <select id="house">
-        <option type="text" value="Gitnória" id="gitnoria-house">Gitnória</option>
-        <option type="text" value="Reactpuff" id="reactpuff-house"></option>
-        <option type="text" value="Corvinode" id="corvinode-house"></option>
-        <option type="text" value="Pytherina" id="pytherina-house"></option>
-      </select>
-      <label id="label-family">Qual sua família?</label>
-      <input type="radio" value="Frontend" name="family"> Família Frontend
-      <input type="radio" value="Backend" name="family"> Família Backend
-      <input type="radio" value="FullStack" name="family"> Família Fullstack
-      
-   </form>
-   <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
-  </main>
-<script src="script.js"></script>
-</body>
+      <form class="trybewarts-login">
+        <input id="login" type="email" placeholder="Login" required />
+        <input id="password" type="password" placeholder="Senha" required />
+        <button type="submit" id="button">Logar</button>
+      </form>
+    </header>
+    <main>
+      <form id="evaluation-form">
+        <input id="input-name" type="text" placeholder="Nome" />
+        <input id="input-lastname" type="text" placeholder="Sobrenome" />
+        <input id="input-email" type="email" placeholder="Email" />
+        <label>Casa :</label>
+        <select id="house">
+          <option type="text" value="Gitnória" id="gitnoria-house">
+            Gitnória
+          </option>
+          <option type="text" value="Reactpuff" id="reactpuff-house"></option>
+          <option type="text" value="Corvinode" id="corvinode-house"></option>
+          <option type="text" value="Pytherina" id="pytherina-house"></option>
+        </select>
+        <label id="label-family">Qual sua família?</label>
+        <input type="radio" value="Frontend" name="family" /> Família Frontend
+        <input type="radio" value="Backend" name="family" /> Família Backend
+        <input type="radio" value="FullStack" name="family" /> Família Fullstack
+        <br />
+        <label id="label-content"
+          >Qual conteúdo você está com mais vontade de aprender?</label
+        >
+        <div id="family">
+          <input type="checkbox" class="subject" />HoFs
+          <input type="checkbox" class="subject" />Jest
+          <input type="checkbox" class="subject" />Promises
+          <input type="checkbox" class="subject" />React
+          <input type="checkbox" class="subject" />SQL
+          <input type="checkbox" class="subject" />Python
+        </div>
+      </form>
+      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" />
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
