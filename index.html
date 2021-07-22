@@ -47,13 +47,28 @@
           >Qual conteúdo você está com mais vontade de aprender?</label
         >
         <div id="family">
-          <input type="checkbox" class="subject" />HoFs
-          <input type="checkbox" class="subject" />Jest
-          <input type="checkbox" class="subject" />Promises
-          <input type="checkbox" class="subject" />React
-          <input type="checkbox" class="subject" />SQL
-          <input type="checkbox" class="subject" />Python
+          <input type="checkbox" class="subject" value="HoFs" />HoFs
+          <input type="checkbox" class="subject" value="Jest" />Jest
+          <input type="checkbox" class="subject" value="Promises" />Promises
+          <input type="checkbox" class="subject" value="React" />React
+          <input type="checkbox" class="subject" value="SQL" />SQL
+          <input type="checkbox" class="subject" value="Python" />Python
         </div>
+        <div class="block">
+          <label id="label-rate">Como você avalia a Trybewarts?</label>
+          <input type="radio" value="1" name="rate" /> 1
+          <input type="radio" value="2" name="rate" /> 2
+          <input type="radio" value="3" name="rate" /> 3
+          <input type="radio" value="4" name="rate" /> 4
+          <input type="radio" value="5" name="rate" /> 5
+          <input type="radio" value="6" name="rate" /> 6
+          <input type="radio" value="7" name="rate" /> 7
+          <input type="radio" value="8" name="rate" /> 8
+          <input type="radio" value="9" name="rate" /> 9
+          <input type="radio" value="10" name="rate" /> 10
+        </div>
+        <label class="textarea">Deixe seu comentário:</label>
+        <textarea id="textarea" maxlength="500"></textarea>
       </form>
       <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" />
     </main>
