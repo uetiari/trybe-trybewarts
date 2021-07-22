@@ -66,3 +66,7 @@ main {
 #family {
   display: flex;
 }
+
+#block {
+  display: flex;
+}

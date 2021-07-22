@@ -22,18 +22,22 @@
     </header>
     <main>
       <form id="evaluation-form">
-        <input id="input-name" type="text" placeholder="Nome" />
-        <input id="input-lastname" type="text" placeholder="Sobrenome" />
-        <input id="input-email" type="email" placeholder="Email" />
-        <label>Casa :</label>
-        <select id="house">
-          <option type="text" value="Gitnória" id="gitnoria-house">
-            Gitnória
-          </option>
-          <option type="text" value="Reactpuff" id="reactpuff-house"></option>
-          <option type="text" value="Corvinode" id="corvinode-house"></option>
-          <option type="text" value="Pytherina" id="pytherina-house"></option>
-        </select>
+        <div class="block">
+          <input id="input-name" type="text" placeholder="Nome" />
+          <input id="input-lastname" type="text" placeholder="Sobrenome" />
+        </div>
+        <div class="block">
+          <input id="input-email" type="email" placeholder="Email" />
+          <label>Casa :</label>
+          <select id="house">
+            <option type="text" value="Gitnória" id="gitnoria-house">
+              Gitnória
+            </option>
+            <option type="text" value="Reactpuff" id="reactpuff-house"></option>
+            <option type="text" value="Corvinode" id="corvinode-house"></option>
+            <option type="text" value="Pytherina" id="pytherina-house"></option>
+          </select>
+        </div>
         <label id="label-family">Qual sua família?</label>
         <input type="radio" value="Frontend" name="family" /> Família Frontend
         <input type="radio" value="Backend" name="family" /> Família Backend
