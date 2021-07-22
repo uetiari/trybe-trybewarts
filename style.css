@@ -13,11 +13,10 @@
 }
 
 .header h1 {
-  color: rgb(255, 255, 255);
+  color: 'white';
 }
 
 .trybewarts-header-logo {
-  /* width: 70px; */
   justify-content: flex-start;
 }
 
