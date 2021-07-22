@@ -69,3 +69,7 @@ main {
 #block {
   display: flex;
 }
+
+p {
+  text-align: center;
+}
